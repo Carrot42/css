@@ -4,20 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Body styles */
 body {
   background-color: #000;
   color: #fff;
   font-family: Arial, sans-serif;
 }
-
-/* Header styles */
 header {
   background-color: #551A8B;
   padding: 20px;
 }
-
 tnav {
   display: flex;
   justify-content: space-between;
@@ -29,7 +24,6 @@ tnav {
   height: 100%;
 }
 
-/* Navigation link styles */
 tnav a {
   color: #fff;
   text-decoration: none;
@@ -37,23 +31,10 @@ tnav a {
   transition: color 0.3s ease;
 }
 
-tnav a:hover {
-  color: #FF00FF; /* Change to your desired hover color */
-}
-
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-
+tnav a:hover {color: #FF00FF;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
 
 /* Add your additional styles and content here */
 .mainstyle{
@@ -104,10 +85,13 @@ width: max-content;
 background-color: #3a1a8b;
 border: purple .3ch solid;
 border-radius: 1ch;
-max-height: 80ch;
-max-width: 40ch;
+max-height: 40ch;
+max-width: 30ch;
 background-position: center; 
 background-size: cover;
+}
+.flexgif{
+  max-width: 150ch;
 }
 .charimg{
 width: fit-content;
