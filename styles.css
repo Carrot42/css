@@ -1,0 +1,147 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #551A8B;
+  padding: 20px;
+}
+
+tnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tlogo span {
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+}
+
+/* Navigation link styles */
+tnav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+tnav a:hover {
+  color: #FF00FF; /* Change to your desired hover color */
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+/* Add your additional styles and content here */
+.mainstyle{
+  color: white;
+  background-color: #551A8B;
+  margin-left: 1ch;
+  padding: 2ch;
+  border: #5a5a5a;
+  border-style: solid;
+  border-radius: 2ch;
+  width: fit-content;
+  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.flexbox{
+display: flex;
+flex-wrap: wrap;
+}
+.title{
+text-align: center;
+padding: 0ch;
+margin: 1ch;
+margin-top: 2ch;
+color: gold;
+font: bold;
+font-size: x-large;
+}
+.flexitem{
+padding: 1ch;
+margin: 1ch;
+background-color: gray;
+width: fit-content;
+background-color: #3a1a8b;
+border: purple 1ch solid;
+border-radius: 2ch;
+height: 28ch;
+width: 20ch;
+background-position: center; 
+background-size: cover;
+}
+.fleximg{
+background-color: gray;
+height: max-content;
+width: max-content;
+background-color: #3a1a8b;
+border: purple .3ch solid;
+border-radius: 1ch;
+max-height: 80ch;
+max-width: 40ch;
+background-position: center; 
+background-size: cover;
+}
+.charimg{
+width: fit-content;
+align-items: center;
+align-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+.chartitle{
+color: rgb(0, 183, 255);
+font-size: x-large;
+text-align: center;
+background-color: gray;
+border-radius: .5ch;
+padding: .3ch;
+width: fit-content;
+text-decoration: none;
+font-size:x-large;
+margin-left: auto;
+margin-right: auto;
+margin-top: -.6ch;
+}
+.backbtn {
+display: inline-block;
+padding: 10px 20px;
+background-color: purple;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+font-family: Arial, sans-serif;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+
+.backbtn:hover {
+background-color: darkpurple;
+}
